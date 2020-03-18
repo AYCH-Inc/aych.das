@@ -16,9 +16,9 @@ RUN apt-get update && apt-get install -y python3-pip
 RUN pip3 install pyzmq # really needed?
 RUN pip3 install jinja2
 
-# dash_hash
-RUN git clone https://github.com/dashpay/dash_hash
-RUN cd dash_hash && python3 setup.py install
+# aych_hash
+RUN git clone https://github.com/aych-inc/aych.das
+RUN cd aych_hash && python3 setup.py install
 
 ARG USER_ID=1000
 ARG GROUP_ID=1000
@@ -26,8 +26,8 @@ ARG GROUP_ID=1000
 # add user with specified (or default) user/group ids
 ENV USER_ID ${USER_ID}
 ENV GROUP_ID ${GROUP_ID}
-RUN groupadd -g ${GROUP_ID} dash
-RUN useradd -u ${USER_ID} -g dash -s /bin/bash -m -d /dash dash
+RUN groupadd -g ${GROUP_ID} aych
+RUN useradd -u ${USER_ID} -g aych -s /bin/bash -m -d /aych aych
 
 # Extra packages
 ARG BUILD_TARGET=linux64
@@ -49,9 +49,9 @@ RUN mkdir /dash-src && \
   mkdir -p /cache/ccache && \
   mkdir /cache/depends && \
   mkdir /cache/sdk-sources && \
-  chown $USER_ID:$GROUP_ID /dash-src && \
+  chown $USER_ID:$GROUP_ID /aych-src && \
   chown $USER_ID:$GROUP_ID /cache && \
   chown $USER_ID:$GROUP_ID /cache -R
-WORKDIR /dash-src
+WORKDIR /aych-src
 
-USER dash
+USER aych
