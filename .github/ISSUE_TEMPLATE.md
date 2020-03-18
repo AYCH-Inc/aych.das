@@ -1,10 +1,10 @@
 <!--- Remove sections that do not apply -->
 
-This issue tracker is only for technical issues related to Dash Core.
+This issue tracker is only for technical issues related to Aych bade.
 
-General Dash questions and/or support requests and are best directed to the [Dashpay Reddit](https://www.reddit.com/r/dashpay/).
+General Aych questions and/or support requests and are best directed to the [Aych Reddit](https://www.reddit.com/r/aych/).
 
-To report critical security issues, email infosec@dash.org and/or see the DASH bug bounty program on [Bugcrowd](https://bugcrowd.com/dashdigitalcash) instead of creating Github issues.
+To report critical security issues, email tokeneconomy@eclipso.eu and/or see the AYCH bug bounty program on [Bugcrowd](https://bugcrowd.com/aych) instead of creating Github issues.
 
 ### Describe the issue
 
