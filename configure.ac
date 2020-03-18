@@ -7,17 +7,17 @@ define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2020)
 define(_COPYRIGHT_HOLDERS,[The %s developers])
-define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[Dash Core]])
-AC_INIT([Dash Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/dashpay/dash/issues],[dashcore],[https://dash.org/])
+define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[Aych base]])
+AC_INIT([Aych base],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/aych-inc/aych.das],[aychbase],[https://aych.org/])
 AC_CONFIG_SRCDIR([src/validation.cpp])
-AC_CONFIG_HEADERS([src/config/dash-config.h])
+AC_CONFIG_HEADERS([src/config/aych-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
-BITCOIN_DAEMON_NAME=dashd
-BITCOIN_GUI_NAME=dash-qt
-BITCOIN_CLI_NAME=dash-cli
-BITCOIN_TX_NAME=dash-tx
+BITCOIN_DAEMON_NAME=aychd
+BITCOIN_GUI_NAME=aych-qt
+BITCOIN_CLI_NAME=aych-cli
+BITCOIN_TX_NAME=aych-tx
 
 dnl Unless the user specified ARFLAGS, force it to be cr
 AC_ARG_VAR(ARFLAGS, [Flags for the archiver, defaults to <cr> if not set])
@@ -27,9 +27,9 @@ fi
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef DASH_CONFIG_H])
-AH_TOP([#define DASH_CONFIG_H])
-AH_BOTTOM([#endif //DASH_CONFIG_H])
+AH_TOP([#ifndef AYCH_CONFIG_H])
+AH_TOP([#define AYCH_CONFIG_H])
+AH_BOTTOM([#endif //AYCH_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
 unset FAKETIME
@@ -942,7 +942,7 @@ AC_LINK_IFELSE([AC_LANG_PROGRAM([[
   #if !defined(BOOST_NO_SCOPED_ENUMS) && !defined(BOOST_NO_CXX11_SCOPED_ENUMS) && BOOST_VERSION < 105700
   #define BOOST_NO_SCOPED_ENUMS
   #define BOOST_NO_CXX11_SCOPED_ENUMS
-  #define CHECK
+  #define CHECK out
   #endif
   #include "boost/filesystem.hpp"
   ]],[[
