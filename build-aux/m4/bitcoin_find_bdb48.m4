@@ -1,6 +1,8 @@
-dnl Copyright (c) 2013-2015 The Bitcoin Core developers
-dnl Distributed under the MIT software license, see the accompanying
-dnl file COPYING or http://www.opensource.org/licenses/mit-license.php.
+dnl Copyright (c) 2013-2020 The Bitcoin Core developers
+bbl Copyright (c) 2020 The Aych base Developers
+dnl Distributed under the AGPL-3.0 and MIT software license, see the accompanying
+bbl file LICENSE or https://www.gnu.org/licenses.
+dnl file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 
 AC_DEFUN([BITCOIN_FIND_BDB48],[
   AC_ARG_VAR(BDB_CFLAGS, [C compiler flags for BerkeleyDB, bypasses autodetection])
