@@ -1,7 +1,10 @@
-# Copyright (c) 2013-2016 The Bitcoin Core developers
-# Copyright (c) 2014-2018 The Dash Core developers
-# Distributed under the MIT software license, see the accompanying
-# file COPYING or http://www.opensource.org/licenses/mit-license.php.
+# Copyright (c) 2013-2020 The Bitcoin Core developers
+# Copyright (c) 2014-2020 The Dash Core developers
+# Copyright (c) 2020 The Aych base Developers, AGPL-3.0
+# Distributed under the AGPL-3.0 and MIT software license, see the accompanying
+# file LICENSE or https://www.gnu.org/licenses.
+# file LICENSE or http://www.opensource.org/licenses/mit-license.php.
+
 
 ACLOCAL_AMFLAGS = -I build-aux/m4
 SUBDIRS = src
