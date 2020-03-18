@@ -1,6 +1,6 @@
 <!--- Remove sections that do not apply -->
 
-This issue tracker is only for technical issues related to Aych bade.
+This issue tracker is only for technical issues related to Aych base.
 
 General Aych questions and/or support requests and are best directed to the [Aych Reddit](https://www.reddit.com/r/aych/).
 
@@ -23,7 +23,7 @@ Tell us what happens instead
 ### Screenshots.
 If the issue is related to the GUI, screenshots can be added to this issue via drag & drop.
 
-### What version of Dash Core are you using?
+### What version of Aych base are you using?
 List the version number/commit ID, and if it is an official binary, self compiled or a distribution package such as PPA.
 
 ### Machine specs:
