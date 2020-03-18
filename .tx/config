@@ -2,6 +2,6 @@
 host = https://www.transifex.com
 
 [Aych.qt-translation-012x]
-file_filter = src/qt/locale/aychh_<lang>.ts
+file_filter = src/qt/locale/aych_<lang>.ts
 source_file = src/qt/locale/aych_en.ts
 source_lang = en
