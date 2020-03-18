@@ -16,7 +16,7 @@ are carried out collectively by the network. Aych base is the name of the open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Aych base software, see https://www.dash.org/get-dash/.
+the Aych base software, see https://github.com/aych-inc/aych.das.
 
 
 License
