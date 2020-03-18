@@ -1,4 +1,4 @@
-#!/usr/bin/env aych
+#!/usr/bin/env bash
 
 # This script is meant to be sourced into the actual build script. It contains the build matrix and will set all
 # necessary environment variables for the request build target
