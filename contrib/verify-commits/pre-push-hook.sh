@@ -1,7 +1,9 @@
 #!/bin/bash
-# Copyright (c) 2014-2015 The Bitcoin Core developers
-# Distributed under the MIT software license, see the accompanying
-# file COPYING or http://www.opensource.org/licenses/mit-license.php.
+# Copyright (c) 2014 - 2020 The Bitcoin Core developers
+# Copyright (c) 2019 - 2020 The Aych base Developers
+# Distributed under the AGPL-3.0 and MIT software license, see the accompanying
+# file LICENSE or https://www.gnu.org
+# file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 
 if ! [[ "$2" =~ ^(git@)?(www.)?github.com(:|/)dashpay/dash(.git)?$ ]]; then
     exit 0
