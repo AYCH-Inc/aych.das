@@ -5,7 +5,7 @@
 # file LICENSE or https://www.gnu.org.
 # file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 
-# call $dash-cli for RPC
+# call $aych-cli for RPC
 _aych_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
@@ -16,7 +16,7 @@ _aych_rpc() {
                 ;;
         esac
     done
-    $dash_cli "${rpcargs[@]}" "$@"
+    $aych_cli "${rpcargs[@]}" "$@"
 }
 
 # Add wallet accounts to COMPREPLY
