@@ -1,13 +1,15 @@
 #!/bin/bash
-# Copyright (c) 2013 The Bitcoin Core developers
-# Distributed under the MIT software license, see the accompanying
-# file COPYING or http://www.opensource.org/licenses/mit-license.php.
+# Copyright (c) 2013 - 2020 The Bitcoin Core developers
+# Copyright (c) 2030 The Aych base Developers
+# Distributed under the AGPL-3.0 and MIT software license, see the accompanying
+# file LICENSE or https://www.gnu.org 
+# file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 
 if [ -d "$1" ]; then
   cd "$1"
 else
   echo "Usage: $0 <datadir>" >&2
-  echo "Removes obsolete Dash database files" >&2
+  echo "Removes obsolete Aych database files" >&2
   exit 1
 fi
 
@@ -19,22 +21,22 @@ if [ -f wallet.dat -a -f peers.dat -a -f chainstate/CURRENT -a -f blocks/index/C
 
 case $LEVEL in
   0)
-    echo "Error: no Dash datadir detected."
+    echo "Error: no Aych datadir detected."
     exit 1
     ;;
   1)
-    echo "Detected old Dash datadir (before 0.7)."
+    echo "Detected old Aych datadir (before 0.7)."
     echo "Nothing to do."
     exit 0
     ;;
   2)
-    echo "Detected Dash 0.7 datadir."
+    echo "Detected Aych 0.7 datadir."
     ;;
   3)
-    echo "Detected Dash pre-0.8 datadir."
+    echo "Detected Aych pre-0.8 datadir."
     ;;
   4)
-    echo "Detected Dash 0.8 datadir."
+    echo "Detected Aych 0.8 datadir."
     ;;
 esac
 
