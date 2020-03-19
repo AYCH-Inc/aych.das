@@ -63,7 +63,7 @@ def build():
 
     if args.windows:
         print('\nCompiling ' + args.version + ' Windows')
-        subprocess.check_call(['bin/gbuild', '-j', args.jobs, '-m', args.memory, '--commit', 'dash='+args.commit, '--url', 'dash='+args.url, '../aych/contrib/gitian-descriptors/gitian-win.yml'])
+        subprocess.check_call(['bin/gbuild', '-j', args.jobs, '-m', args.memory, '--commit', 'aych='+args.commit, '--url', 'aych='+args.url, '../aych/contrib/gitian-descriptors/gitian-win.yml'])
         subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-win-unsigned', '--destination', '../gitian.sigs/', '../aych/contrib/gitian-descriptors/gitian-win.yml'])
         subprocess.check_call('mv build/out/aychbase-*-win-unsigned.tar.gz inputs/aychbase-win-unsigned.tar.gz', shell=True)
         subprocess.check_call('mv build/out/aychbase-*.zip build/out/aychbase-*.exe ../aychbase-binaries/'+args.version, shell=True)
@@ -96,7 +96,7 @@ def sign():
         print('\nSigning ' + args.version + ' Windows')
         subprocess.check_call(['bin/gbuild', '-i', '--commit', 'signature='+args.commit, '../aych/contrib/gitian-descriptors/gitian-win-signer.yml'])
         subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-win-signed', '--destination', '../gitian.sigs/', '../aych/contrib/gitian-descriptors/gitian-win-signer.yml'])
-        subprocess.check_call('mv build/out/aychbase-*win64-setup.exe ../ayhbase-binaries/'+args.version, shell=True)
+        subprocess.check_call('mv build/out/aychbase-*win64-setup.exe ../aychbase-binaries/'+args.version, shell=True)
         subprocess.check_call('mv build/out/aychbase-*win32-setup.exe ../aychbase-binaries/'+args.version, shell=True)
 
     if args.macos:
