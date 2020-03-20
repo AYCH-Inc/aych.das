@@ -1,35 +1,35 @@
-Dash Core
+Aych base
 ==========
 
-This is the official reference wallet for Dash digital currency and comprises the backbone of the Dash peer-to-peer network. You can [download Dash Core](https://www.dash.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Aych digital currency and comprises the backbone of the Aych peer-to-peer network. You can [download Aych base](https://github.com/aych-Inc/aych.das/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Dash on your native platform.
+The following are some helpful notes on how to run Aych on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- `bin/dash-qt` (GUI) or
-- `bin/dashd` (headless)
+- `bin/aych-qt` (GUI) or
+- `bin/aychd` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run dash-qt.exe.
+Unpack the files into a directory, and then run aych-qt.exe.
 
 ### OS X
 
-Drag Dash-Qt to your applications folder, and then run Dash-Qt.
+Drag Aych-Qt to your applications folder, and then run Aych-Qt.
 
 ### Need Help?
 
-* See the [Dash documentation](https://docs.dash.org)
+* See the [Aych documentation](https://github.com/aych-Inc/aych.das)
 for help and more information.
-* See the [Dash Developer Documentation](https://dash-docs.github.io/) 
+* See the [Aych Developer Documentation](https://github.com/aych-Inc/aych.das/) 
 for technical specifications and implementation details.
-* Ask for help on [Dash Nation Discord](http://dashchat.org)
-* Ask for help on the [Dash Forum](https://dash.org/forum)
+* Ask for help on [Aych Nation Discord](http://discord.com/aych)
+* Ask for help on the [Aych Forum](https://discord.com/aych)
 
 Building
 ---------------------
@@ -43,7 +43,7 @@ The following are developer notes on how to build Dash Core on your native platf
 
 Development
 ---------------------
-The Dash Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Aych base repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Release Notes](release-notes.md)
@@ -59,8 +59,8 @@ The Dash Core repo's [root README](/README.md) contains relevant information on 
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [Dash Forum](https://dash.org/forum), in the Development & Technical Discussion board.
-* Discuss on [Dash Nation Discord](http://dashchat.org)
+* Discuss on the [Aych Forum](https://discord.com/aych), in the Development & Technical Discussion board.
+* Discuss on [Aych Nation Discord](http://discord.com/aych)
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
@@ -73,6 +73,6 @@ The Dash Core repo's [root README](/README.md) contains relevant information on 
 
 License
 ---------------------
-Distributed under the [MIT software license](/COPYING).
+Distributed under the AGPL-3.0 and [MIT software license](/LICENSE).
 This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](https://www.openssl.org/). This product includes
 cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)), and UPnP software written by Thomas Bernard.
