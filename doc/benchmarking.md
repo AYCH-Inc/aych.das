@@ -1,11 +1,11 @@
 Benchmarking
 ============
 
-Dash Core has an internal benchmarking framework, with benchmarks
+Aych base has an internal benchmarking framework, with benchmarks
 for cryptographic algorithms such as SHA1, SHA256, SHA512 and RIPEMD160. As well as the rolling bloom filter.
 
-After compiling Dash Core, the benchmarks can be run with:
-`src/bench/bench_dash`
+After compiling Aych base, the benchmarks can be run with:
+`src/bench/bench_aych`
 
 The output will look similar to:
 ```
