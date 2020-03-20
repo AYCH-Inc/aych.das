@@ -1,6 +1,8 @@
 #! /bin/sh
 # Configuration validation subroutine script.
-#   Copyright 1992-2017 Free Software Foundation, Inc.
+# Copyright 1992 - 2020 Free Software Foundation, Inc.
+# Copyright 2019 - 2020 The Aych base Developers.
+# file LICENSE or https://www.gnu.org/licenses.
 
 timestamp='2017-04-02'
 
