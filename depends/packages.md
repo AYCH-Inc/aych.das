@@ -1,3 +1,4 @@
+The Aych base_AGPL-3.0 is packaged for use.
 Each recipe consists of 3 main parts: defining identifiers, setting build
 variables, and defining build commands.
 
