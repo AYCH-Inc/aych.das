@@ -1,4 +1,5 @@
 define int_vars
+#Set Aych base, AGPL-3.0
 #Set defaults for vars which may be overridden per-package
 $(1)_cc=$($($(1)_type)_CC)
 $(1)_cxx=$($($(1)_type)_CXX)
