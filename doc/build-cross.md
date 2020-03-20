@@ -103,7 +103,7 @@ When building the dependencies, as described in [build-generic](build-generic.md
 $ make HOST=arm-linux-gnueabihf -j4
 ```
 
-When building Dash Core, use
+When building Aych base, use
 
 ```bash
 $ ./configure --prefix=`pwd`/depends/arm-linux-gnueabihf
